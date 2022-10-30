@@ -12,6 +12,12 @@
   },
   "plugins": ["react"],
   "rules": {
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function"
+      }
+    ],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
